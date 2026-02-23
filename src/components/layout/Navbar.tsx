@@ -3,16 +3,14 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <header className="navbar">
-      <div className="container nav-content">
+      <div className="container nav-inner">
         <div className="logo">SchoolMS</div>
-        <nav>
-          <ul className="nav-links">
-            <li>Home</li>
-            <li>Students</li>
-            <li>Teachers</li>
-            <li className="login-btn">Login</li>
-          </ul>
-        </nav>
+        <ul className="nav-menu">
+          <li>Home</li>
+          <li>Students</li>
+          <li>Teachers</li>
+          <li className="login">Login</li>
+        </ul>
       </div>
     </header>
   );

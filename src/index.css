@@ -1,13 +1,15 @@
-html, body, #root {
-  height: 100%;
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+import Home from "./pages/Home";
+
+function App() {
+  return (
+    <div className="app">
+      <Navbar />
+      <Home />
+      <Footer />
+    </div>
+  );
 }
 
-.app-wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.app-content {
-  flex: 1;
-}
+export default App;

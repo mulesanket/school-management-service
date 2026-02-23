@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>© 2026 School Management System. All rights reserved.</p>
+      © 2026 School Management System. All rights reserved.
     </footer>
   );
 };

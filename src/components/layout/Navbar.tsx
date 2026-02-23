@@ -5,11 +5,12 @@ const Navbar = () => {
     <header className="navbar">
       <div className="container nav-inner">
         <div className="logo">SchoolMS</div>
+
         <ul className="nav-menu">
           <li>Home</li>
+          <li>Pupils</li>
           <li>Students</li>
           <li>Teachers</li>
-          <li className="login">Login</li>
         </ul>
       </div>
     </header>

@@ -18,14 +18,15 @@
 }
 
 .logo {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .nav-menu {
   list-style: none;
   display: flex;
-  gap: 32px;
+  gap: 30px;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -33,16 +34,10 @@
 
 .nav-menu li {
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.2s ease;
+  font-weight: 500;
 }
 
 .nav-menu li:hover {
   opacity: 0.8;
-}
-
-.login {
-  padding: 8px 16px;
-  background: white;
-  color: #1e3a8a;
-  border-radius: 6px;
 }

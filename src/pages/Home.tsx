@@ -1,5 +1,15 @@
 import "./Home.css";
 
+import heroImg from "../assets/images/hero.jpg";
+import feature1 from "../assets/images/feature1.jpg";
+import feature2 from "../assets/images/feature2.jpg";
+import feature3 from "../assets/images/feature3.jpg";
+import feature4 from "../assets/images/feature4.jpg";
+import gallery1 from "../assets/images/gallery1.jpg";
+import gallery2 from "../assets/images/gallery2.jpg";
+import gallery3 from "../assets/images/gallery3.jpg";
+import gallery4 from "../assets/images/gallery4.jpg";
+
 const Home = () => {
   return (
     <main className="home">
@@ -10,20 +20,17 @@ const Home = () => {
           <div className="hero-text">
             <h1>Smart School Management Platform</h1>
             <p>
-              Digitally transform your institution with powerful tools for
-              students, teachers, attendance, exams and analytics.
+              Simplify administration, enhance collaboration and empower your
+              institution with a powerful digital ecosystem.
             </p>
             <div className="hero-buttons">
-              <button className="primary-btn">Get Started</button>
-              <button className="secondary-btn">Watch Demo</button>
+              <button className="primary-btn">Explore Platform</button>
+              <button className="secondary-btn">Contact Us</button>
             </div>
           </div>
 
           <div className="hero-image">
-            <img
-              src="https://images.unsplash.com/photo-1509062522246-3755977927d7"
-              alt="School"
-            />
+            <img src={heroImg} alt="School Dashboard" />
           </div>
         </div>
       </section>
@@ -35,50 +42,50 @@ const Home = () => {
 
           <div className="feature-grid">
             <div className="feature-card">
-              <img src="https://images.unsplash.com/photo-1584697964190-6c3fbcfbd2f4" />
-              <h3>Student Records</h3>
-              <p>Complete academic and personal student data management.</p>
+              <img src={feature1} alt="" />
+              <h3>Student Management</h3>
+              <p>Comprehensive student records & academic history.</p>
             </div>
 
             <div className="feature-card">
-              <img src="https://images.unsplash.com/photo-1588072432836-e10032774350" />
-              <h3>Attendance Tracking</h3>
-              <p>Monitor attendance in real-time with smart analytics.</p>
+              <img src={feature2} alt="" />
+              <h3>Attendance System</h3>
+              <p>Track attendance with accuracy and real-time reports.</p>
             </div>
 
             <div className="feature-card">
-              <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b" />
-              <h3>Teacher Portal</h3>
-              <p>Empower teachers with grading and classroom tools.</p>
+              <img src={feature3} alt="" />
+              <h3>Teacher Dashboard</h3>
+              <p>Efficient grading and classroom management tools.</p>
             </div>
 
             <div className="feature-card">
-              <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df" />
-              <h3>Analytics Dashboard</h3>
-              <p>Advanced performance insights and reports.</p>
+              <img src={feature4} alt="" />
+              <h3>Analytics & Reports</h3>
+              <p>Data-driven insights for academic performance.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* STATISTICS */}
+      {/* STATS */}
       <section className="stats">
         <div className="container stats-grid">
           <div>
             <h2>1200+</h2>
-            <p>Students Managed</p>
+            <p>Students</p>
           </div>
           <div>
             <h2>80+</h2>
-            <p>Teachers Connected</p>
+            <p>Teachers</p>
+          </div>
+          <div>
+            <h2>25+</h2>
+            <p>Schools</p>
           </div>
           <div>
             <h2>98%</h2>
             <p>Attendance Accuracy</p>
-          </div>
-          <div>
-            <h2>25+</h2>
-            <p>Schools Integrated</p>
           </div>
         </div>
       </section>
@@ -86,48 +93,22 @@ const Home = () => {
       {/* GALLERY */}
       <section className="gallery">
         <div className="container">
-          <h2>Our Campus & Technology</h2>
+          <h2>Campus & Technology</h2>
 
           <div className="gallery-grid">
-            <img src="https://images.unsplash.com/photo-1496307653780-42ee777d4833" />
-            <img src="https://images.unsplash.com/photo-1588072432904-843af37f03c0" />
-            <img src="https://images.unsplash.com/photo-1584697964403-4a6e6f1a79b8" />
-            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b" />
+            <img src={gallery1} alt="" />
+            <img src={gallery2} alt="" />
+            <img src={gallery3} alt="" />
+            <img src={gallery4} alt="" />
           </div>
-        </div>
-      </section>
-
-      {/* VIDEO */}
-      <section className="video-section">
-        <div className="container">
-          <h2>See Our System In Action</h2>
-          <div className="video-wrapper">
-            <iframe
-              src="https://www.youtube.com/embed/9No-FiEInLA"
-              title="Demo Video"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
-      </section>
-
-      {/* TESTIMONIAL */}
-      <section className="testimonial">
-        <div className="container">
-          <h2>What Schools Say</h2>
-          <p className="testimonial-text">
-            "This platform transformed our school operations completely.
-            Attendance and academic tracking have never been easier."
-          </p>
-          <h4>— Principal, ABC International School</h4>
         </div>
       </section>
 
       {/* CTA */}
       <section className="cta">
         <div className="container">
-          <h2>Ready to modernize your institution?</h2>
-          <button className="primary-btn">Start Today</button>
+          <h2>Ready to Transform Your Institution?</h2>
+          <button className="primary-btn">Get Started Today</button>
         </div>
       </section>
 

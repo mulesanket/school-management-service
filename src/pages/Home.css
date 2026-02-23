@@ -1,5 +1,5 @@
 .home section {
-  padding: 100px 0;
+  padding: 120px 0;
 }
 
 .container {
@@ -9,6 +9,7 @@
 }
 
 /* HERO */
+
 .hero {
   background: linear-gradient(135deg, #f4f6f9, #e8eef7);
 }
@@ -17,12 +18,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 60px;
+  gap: 80px;
 }
 
 .hero-text h1 {
-  font-size: 48px;
+  font-size: 52px;
   margin-bottom: 20px;
+  line-height: 1.2;
 }
 
 .hero-text p {
@@ -33,51 +35,60 @@
 
 .hero-image img {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 16px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.1);
 }
 
 /* BUTTONS */
+
 .primary-btn {
-  padding: 12px 24px;
+  padding: 14px 28px;
   background: #1e3a8a;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .secondary-btn {
-  padding: 12px 24px;
+  padding: 14px 28px;
   border: 2px solid #1e3a8a;
   background: transparent;
   color: #1e3a8a;
-  border-radius: 6px;
+  border-radius: 8px;
+  margin-left: 15px;
   cursor: pointer;
-  margin-left: 10px;
 }
 
 /* FEATURES */
+
 .features {
   text-align: center;
+  background: white;
+}
+
+.features h2 {
+  font-size: 36px;
 }
 
 .feature-grid {
-  margin-top: 50px;
+  margin-top: 60px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 40px;
 }
 
 .feature-card {
-  background: #f4f6f9;
-  border-radius: 12px;
+  border-radius: 16px;
   overflow: hidden;
+  background: #f9fafc;
   transition: 0.3s;
 }
 
 .feature-card img {
   width: 100%;
-  height: 200px;
+  height: 220px;
   object-fit: cover;
 }
 
@@ -91,10 +102,12 @@
 }
 
 .feature-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-10px);
+  box-shadow: 0 25px 40px rgba(0,0,0,0.08);
 }
 
 /* STATS */
+
 .stats {
   background: #1e3a8a;
   color: white;
@@ -104,65 +117,46 @@
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  gap: 50px;
 }
 
 .stats h2 {
-  font-size: 36px;
+  font-size: 42px;
 }
 
 /* GALLERY */
+
+.gallery {
+  text-align: center;
+}
+
 .gallery-grid {
-  margin-top: 40px;
+  margin-top: 60px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 25px;
 }
 
 .gallery-grid img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 14px;
+  transition: 0.3s;
 }
 
-/* VIDEO */
-.video-section {
-  text-align: center;
-  background: #f4f6f9;
-}
-
-.video-wrapper {
-  margin-top: 40px;
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-}
-
-.video-wrapper iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-}
-
-/* TESTIMONIAL */
-.testimonial {
-  text-align: center;
-}
-
-.testimonial-text {
-  max-width: 800px;
-  margin: 20px auto;
-  font-style: italic;
+.gallery-grid img:hover {
+  transform: scale(1.05);
 }
 
 /* CTA */
+
 .cta {
   text-align: center;
-  background: #1e3a8a;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
   color: white;
 }
 
 /* RESPONSIVE */
+
 @media (max-width: 992px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -183,6 +177,6 @@
   }
 
   .hero-text h1 {
-    font-size: 32px;
+    font-size: 36px;
   }
 }

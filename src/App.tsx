@@ -4,11 +4,13 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <>
+    <div className="app-wrapper">
       <Navbar />
-      <Home />
+      <main className="app-content">
+        <Home />
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -180,3 +180,45 @@
     font-size: 36px;
   }
 }
+
+/* VIDEO SECTION */
+
+.video-section {
+  background: #f4f6f9;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 80px;
+}
+
+.video-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.video-text p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.video-wrapper video {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 25px 40px rgba(0,0,0,0.1);
+}
+
+.alt-video {
+  background: white;
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}

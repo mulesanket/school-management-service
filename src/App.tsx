@@ -1,14 +1,16 @@
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Footer from "./components/Footer";
+import "./App.css";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Home />
-      <Footer />
-    </>
+    <div className="home">
+      <div className="home-content">
+        <h1>Welcome to School Management System</h1>
+        <p>
+          Manage students, teachers, classes and academic operations efficiently.
+        </p>
+        <button>Get Started</button>
+      </div>
+    </div>
   );
 }
 

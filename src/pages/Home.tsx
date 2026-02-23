@@ -1,43 +1,34 @@
-.navbar {
-  width: 100%;
-  background: #1e3a8a;
-  color: white;
-}
+import "./Home.css";
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
+const Home = () => {
+  return (
+    <main className="home">
 
-.nav-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
-}
+      <section className="hero">
+        <div className="container hero-grid">
+          <div className="hero-text">
+            <h1>Modern School Management Platform</h1>
+            <p>
+              Digitally transform your institution with powerful tools to manage
+              students, teachers, attendance, exams, and performance analytics.
+            </p>
+            <div className="hero-buttons">
+              <button className="primary-btn">Explore Features</button>
+              <button className="secondary-btn">Watch Demo</button>
+            </div>
+          </div>
 
-.logo {
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
+          <div className="hero-image">
+            <img
+              src="https://images.unsplash.com/photo-1588072432836-e10032774350"
+              alt="School dashboard"
+            />
+          </div>
+        </div>
+      </section>
 
-.nav-menu {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
+    </main>
+  );
+};
 
-.nav-menu li {
-  cursor: pointer;
-  transition: 0.2s ease;
-  font-weight: 500;
-}
-
-.nav-menu li:hover {
-  opacity: 0.8;
-}
+export default Home;

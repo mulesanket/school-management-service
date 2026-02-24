@@ -1,14 +1,14 @@
 import "./Home.css";
 
-import heroImg from "../assets/images/hero.webp";
-import feature1 from "../assets/images/feature1.webp";
-import feature2 from "../assets/images/feature2.webp";
-import feature3 from "../assets/images/feature3.webp";
-import feature4 from "../assets/images/feature4.webp";
-import gallery1 from "../assets/images/gallery1.webp";
-import gallery2 from "../assets/images/gallery2.webp";
-import gallery3 from "../assets/images/gallery3.webp";
-import gallery4 from "../assets/images/gallery4.webp";
+import heroImg from "../assets/images/hero.jpg";
+import feature1 from "../assets/images/feature1.jpg";
+import feature2 from "../assets/images/feature2.jpg";
+import feature3 from "../assets/images/feature3.jpg";
+import feature4 from "../assets/images/feature4.jpg";
+import gallery1 from "../assets/images/gallery1.jpg";
+import gallery2 from "../assets/images/gallery2.jpg";
+import gallery3 from "../assets/images/gallery3.jpg";
+import gallery4 from "../assets/images/gallery4.jpg";
 import introVideo from "../assets/videos/intro.mp4";
 import demoVideo from "../assets/videos/demo.mp4";
 
